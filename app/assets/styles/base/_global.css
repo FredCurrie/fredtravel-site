@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+$mainBlue: #2f5572;
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: $mainBlue; /*Hey! Wake up!*/
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
