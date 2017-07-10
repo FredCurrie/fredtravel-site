@@ -1,0 +1,26 @@
+@define-mixin atSmall {
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 800px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1200px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin clearfix {
+        &::after {
+        content: "";  /*Fred note this creates empty space for clearing floats*/
+        clear: both;
+        display: table; /*adds browser support*/
+                        /*Brad's preferred way to clear floats*/
+    }
+}
