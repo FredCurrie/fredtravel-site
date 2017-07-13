@@ -8,7 +8,7 @@
     }
     
     &--gutters-large {
-        margin-right: -65px;
+        margin-right: -100px;
     }
     
     &--gutters > div {          /*select divs within row div*/

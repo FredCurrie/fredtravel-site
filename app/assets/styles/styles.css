@@ -11,6 +11,7 @@
 @import "modules/_row";
 @import "modules/_generic-content-container";
 @import "modules/_section-title";
+@import "modules/_feature-item";
 
 
 /*working stylesheet is linked via gulp to*/
