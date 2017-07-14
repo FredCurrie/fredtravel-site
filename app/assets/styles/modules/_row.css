@@ -2,6 +2,9 @@
     
     @mixin clearfix;
 
+    &--t-padding {
+        padding: 80px;
+    }
 
     &--gutters {
         margin-right: -65px;
@@ -11,12 +14,20 @@
         margin-right: -100px;
     }
     
+    &--gutters-small {
+        margin-right: -45px;
+    }
+    
     &--gutters > div {          /*select divs within row div*/
         padding-right: 65px;
     }
     
     &--gutters-large > div {
         padding-right: 100px;
+    }
+    
+    &--gutters-small > div {
+        padding-right: 45px;
     }
     
     &__b-margin-until-medium {
@@ -51,7 +62,18 @@
             width: 63%;
         }
     }
-
+    
+/* Begin equal-height rules */
+    &--equal-height-at-medium {
+        @mixin atMedium {
+            display: flex;
+        }
+        
+        & > div {
+            float: none;
+            display: flex;
+        }
+    }
 }
     
     
