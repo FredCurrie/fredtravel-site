@@ -37,7 +37,11 @@ class Modal {
 
 export default Modal;
 
-//Fred replaced below with Brad's file.
+
+
+
+
+//Fred replaced below with Brad's file after getting stuck on chapter 50. The buttons would not open the modal.
 /*import $ from 'jquery';
 
 class Modal {
