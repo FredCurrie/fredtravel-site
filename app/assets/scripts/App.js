@@ -10,6 +10,8 @@ new RevealOnScroll($(".testimonial"), "60%");
 var stickyHeader = new StickyHeader();
 var modal = new Modal();
 
+// Broke my layout while doing lazyload
+
 
 /* Fred's links how to handle a js that doesn't seem to load, check the npm version */
 
