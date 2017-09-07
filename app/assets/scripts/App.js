@@ -13,5 +13,5 @@ var modal = new Modal();
 // Broke my layout while doing lazyload
 
 
-/* Fred's links how to handle a js that doesn't seem to load, check the npm version */
+/* Fred's links how to handle a js that doesn't seem to load, check the npm version Okay? */
 
