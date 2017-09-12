@@ -25,6 +25,7 @@
     color: $mainBlue;
     margin: 0;
     font-size: 2.4rem;
+    vertical-align: top;
   
     @mixin atSmall {
       font-size: 4.8rem;
